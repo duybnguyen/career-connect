@@ -11,12 +11,16 @@ const Navbar = () => {
 
        <div className="website-nav">
          <div className="nav-btn">
-            <img src={internshipsIcon} alt="all internships" />
-            <Link to="/">ALL INTERNSHIPS</Link>
+            <div className="btn">
+               <img src={internshipsIcon} alt="all internships" />
+               <Link to="/">ALL INTERNSHIPS</Link>
+            </div>
          </div>
          <div className="nav-btn">
-            <img src={postIcon} alt="post internships" />
-            <Link>POST INTERNSHIPS</Link>
+            <div className="btn">
+               <img src={postIcon} alt="post internships" />
+               <Link>POST INTERNSHIPS</Link>
+            </div>
          </div>
        </div>
      </nav>

@@ -17,13 +17,34 @@ nav {
       font-weight: 500;
 
       .nav-btn {
-         display: flex;
-         align-items: center;
-         gap: .5rem;
-
-         img {
-            max-width: 30px;
+         position: relative;
+         .btn {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+   
+            img {
+               max-width: 30px;
+            }
          }
+      }
+
+      .nav-btn::after {
+         content: '';
+         height: 3px;
+         width: 100%;
+         background-color: white;
+         position: absolute;
+         bottom: -5px;
+         opacity: 0;
+         transition: all 0.3s;
+         pointer-events: none;
+      }
+
+      .nav-btn:hover::after,
+      .nav-btn:focus::after {
+         opacity: 1;
+         color: white;
       }
    }
 
