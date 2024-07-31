@@ -1,0 +1,32 @@
+nav {
+   display: flex;
+   justify-content: space-between;
+   padding: 1.5rem 4rem;
+   align-items: center;
+
+   .logo {
+      max-width: 80px;
+   }
+
+   .website-nav {
+      display: flex;
+      gap: 4rem;
+      align-items: center;
+      letter-spacing: 1px;
+      font-weight: 500;
+
+      button {
+         padding: .5rem 1rem;
+         background-color: transparent;
+         border-radius: .4rem;
+         border: 2px solid black;
+         font-weight: bold;
+      }
+   }
+
+   a {
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+   }
+}
