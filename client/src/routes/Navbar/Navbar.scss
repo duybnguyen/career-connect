@@ -15,6 +15,16 @@ nav {
       align-items: center;
       letter-spacing: 1px;
       font-weight: 500;
+
+      .nav-btn {
+         display: flex;
+         align-items: center;
+         gap: .5rem;
+
+         img {
+            max-width: 30px;
+         }
+      }
    }
 
    a {

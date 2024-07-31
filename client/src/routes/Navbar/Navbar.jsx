@@ -1,6 +1,8 @@
 import "./Navbar.scss"
 import { Link } from "react-router-dom"
 import logo from "../../assets/logo.png"
+import internshipsIcon from "../../assets/all-internships.png"
+import postIcon from "../../assets/post-internships.png"
 
 const Navbar = () => {
    return (
@@ -8,8 +10,14 @@ const Navbar = () => {
        <img src={logo} alt="logo" className="logo" />
 
        <div className="website-nav">
-         <Link to="/">ALL INTERNSHIPS</Link>
-         <Link>POST INTERNSHIPS</Link>
+         <div className="nav-btn">
+            <img src={internshipsIcon} alt="all internships" />
+            <Link to="/">ALL INTERNSHIPS</Link>
+         </div>
+         <div className="nav-btn">
+            <img src={postIcon} alt="post internships" />
+            <Link>POST INTERNSHIPS</Link>
+         </div>
        </div>
      </nav>
    );

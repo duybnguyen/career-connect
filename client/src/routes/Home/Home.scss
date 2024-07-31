@@ -13,9 +13,35 @@
       .hero-text {
          display: flex;
          flex-direction: column;
-         gap: 2rem;
+         gap: 3rem;
+
          h2 {
             font-size: 3.5rem;
+         }
+
+         .how-it-works {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            box-shadow: 2px 2px 5px 1px rgb(100, 84, 84);
+
+            h3 {
+               margin-bottom: .8rem;
+               font-size: 1.5rem;
+               color: black;
+               
+            }
+
+            ul {
+               display: flex;
+               flex-direction: column;
+               gap: .5rem;
+               
+               li {
+                  color: black;
+                  list-style: none;
+               }
+            }
          }
 
          .button-container {
@@ -25,7 +51,7 @@
 
             a {
                border: 2.5px solid white;
-               padding: .6rem 1.5rem;
+               padding: .5rem 1.5rem;
                font-size: 1.1rem;
                font-weight: bold;
             }
