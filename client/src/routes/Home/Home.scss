@@ -1,0 +1,47 @@
+.home-container {
+   background-color: #7E7F83;
+   height: 100vh;
+   .hero-container {
+      display: flex;
+      padding: 6rem 10rem;
+      justify-content: space-between;
+      
+      img {
+         max-width: 500px;
+      }
+      
+      .hero-text {
+         display: flex;
+         flex-direction: column;
+         gap: 2rem;
+         h2 {
+            font-size: 3.5rem;
+         }
+
+         .button-container {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+
+            a {
+               border: 2.5px solid white;
+               padding: .6rem 1.5rem;
+               font-size: 1.1rem;
+               font-weight: bold;
+            }
+
+            a:hover {
+               color: black;
+               background-color: white;
+               transition: .3s;
+            }
+         }
+      }
+   }
+
+   a {
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+   }
+}

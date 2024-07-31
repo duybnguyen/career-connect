@@ -5,7 +5,8 @@ nav {
    align-items: center;
 
    .logo {
-      max-width: 80px;
+      max-width: 90px;
+      cursor: pointer;
    }
 
    .website-nav {
@@ -14,19 +15,11 @@ nav {
       align-items: center;
       letter-spacing: 1px;
       font-weight: 500;
-
-      button {
-         padding: .5rem 1rem;
-         background-color: transparent;
-         border-radius: .4rem;
-         border: 2px solid black;
-         font-weight: bold;
-      }
    }
 
    a {
       text-decoration: none;
-      color: black;
+      color: white;
       cursor: pointer;
    }
 }
